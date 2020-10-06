@@ -1,9 +1,9 @@
 num = 1
 
-sum = 0
+total = 0
 
 while num <= 100:
-    sum = sum + num
+    total = total + num
     num += 1
 
-print(sum)
+print(total)
