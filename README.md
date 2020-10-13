@@ -9,3 +9,8 @@ x = input()
 
 print("{}".format(x))
 ```
+## Week 2 - Decisions and repetitions
+
+Using and, or operator
+Using if, elif, else
+Using for, nested, and, while loops
