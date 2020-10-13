@@ -6,3 +6,4 @@ def create_ladder():
     print("Enter steps")
     remaining = int(input())
     print("| |\n---\n"*remaining)
+create_ladder()
