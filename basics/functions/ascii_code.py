@@ -1,6 +1,6 @@
 #check if single letter that is ascii
 def check_ascii():
-    print("Program Started!\n Please enter a letter:")
+    print("Program Started!\nPlease enter a letter:")
     letter = input()
     if len(letter) == 1:
         ascii_letter = ord(letter)
