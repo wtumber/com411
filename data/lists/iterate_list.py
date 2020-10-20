@@ -6,7 +6,7 @@ def menu():
     print("Please select a direction")
     direction_list = directions()
     for index in range(len(direction_list)):
-        print("{} :{}".format(index,position[index]))
+        print("{} :{}".format(index,direction_list[index]))
 
 def run():
     return menu()
