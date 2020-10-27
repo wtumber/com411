@@ -1,6 +1,6 @@
 def observed():
     observations = []
-    while len(observations)<7:
+    while len(observations)<5:
         print("Input a place:")
         observations.append(input())
     return observations

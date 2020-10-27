@@ -8,12 +8,14 @@ def observed():
 def remove_observations(obs_list):
     print("Do you wish to remove observations?\nyes\nno")
     yesno = input()
-    if yesno == "yes":
+    while yesno == "yes":
         print("Enter string of place to remove")
         remove = input()
         obs_list.remove(remove)
         print("Done!")
-        return obs_list
+        print("Do you wish to remove observations?\nyes\nno")
+        yesno = input()
+    return obs_list
 
 def run():
     original_list = observed()
