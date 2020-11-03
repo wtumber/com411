@@ -14,7 +14,7 @@ def search(file_name):
 def save(file_name,data=("a","b")):
     print("Saving...")
     with open(file_name, "w") as file:
-        file.write("Sections:{} \nBooks:{}".format(data[0],data[1]))
+        file.write("Sections:{} \nBooks:{}".format(data[0],data[1]),end="")
     print("Done")
 
 def run():
