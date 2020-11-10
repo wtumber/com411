@@ -1,16 +1,17 @@
 import matplotlib.pyplot as plt
 def small():
-    plt.plot(x=[3,4,4,3],y=[3,3,4,4],'ro:')
-    plt.show()
+    plt.plot([3,4,4,3,3],[3,3,4,4,3],'ro:')
+    
 
 def medium():
-    plt.plot(x=[2,5,5,2],y=[2,2,5,5],'gs--')
-    plt.show()
+    plt.plot([2,5,5,2,2],[2,2,5,5,2],'gs--')
+    
 
 def large():
-    plt.plot(x=[1,6,6,1],y=[1,1,6,6],'bx')
-    plt.show()
+    plt.plot([1,6,6,1,1],[1,1,6,6,1],'bx-')
+    
 
 small()
 medium()
 large()
+plt.show()
