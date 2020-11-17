@@ -3,7 +3,7 @@ def read_data(file_path):
     with open(file_path) as file:
         file_info = []
         for line in file:
-            file_info.append(line)
+            file_info.append(float(line))
         file.close()
     return file_info
 
